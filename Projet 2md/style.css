@@ -1,0 +1,155 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background-color: rgb(255, 242, 226);
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(255, 235, 207);
+    padding: 10px 20px;
+    height: 60px;
+}
+
+header img {
+    height: 40px;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+}
+
+
+main {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+
+article {
+    flex: 1;
+}
+
+article img.img {
+    display: block;
+    width: 100%;
+    height: 190px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.titre {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: rgb(55, 54, 54);
+}
+
+p {
+    margin-bottom: 16px;
+    line-height: 1.5;
+    
+}
+
+aside {
+    width: 280px;
+    background: #535050da;
+    padding: 16px;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(61, 60, 60, 0.06);
+    font-size: 14px;
+    margin-left: 74%;
+    margin-top: -64%;
+}
+
+aside h2, aside h3 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+
+footer {
+    background-color: rgb(255, 242, 226);
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid #ddd;
+    margin-top: 32%;
+    width: 20%;
+     padding: 20px;
+    display: flex;
+    justify-content: space-between;
+   
+
+}
+.ft{
+    font-size: 68%;
+}
+.para{
+    width: 70%;
+}
+.galerie {
+    display: flex;      
+    gap: 10px;            
+    justify-content: center; 
+    margin-left: 175%;
+}
+
+.galerie img {
+    width: 50px;           
+   
+}
+.Li{
+    margin-left: 623px;
+}
+nav :hover {
+color: rgb(255, 86, 86);
+}
+span {
+  display:inline-block;
+  margin-right: 100px;
+}
+
+button{
+     display: inline-block;
+     position: relative;
+     top:0px;
+     margin-left: 91.5%;
+     border-radius: 6px;
+     height: 4% ; 
+     width: 8%;
+     background-color: red;
+     color: white;
+}
+
+.fnd_img {
+    background-color: rgba(0, 0, 0, 0.717);  
+    padding: 5px;
+    position: relative;
+    top: -53px;
+   
+  }
+.paRag{
+margin-top: -77px;
+}
+@font-face{
+    font-family: "Bathie";
+    src: url("ballpark.ttf");
+}
+.Ecriture{
+    font-family: "Bathie";
+    
+}
